@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Noto+Sans&family=Nunito&display=swap');
+
+a {
+  text-decoration: none;
+  color: #5280d6;
+}
+
+/*header*/
+
+.header, section, footer {
+  padding: 50px 0;
+}
+
+.header {
+  padding: 200px 0;
+}
+
+.header, .footer {
+  background-color: #f6f8f8;
+  background: url(../img/background.jpg) fixed;
+  filter: url(../img/background.jpg), progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr='#1980bb',GradientType=1 );
+}
+
+.text-header {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000000;
+
+  transform: translate(0px, 120%);
+  opacity: 0;  
+  transition: all 0.8s ease 0s;
+}
+
+.text-header._active{
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.navbar-text {
+  font-size: 18px;
+}
+
+.navbar_telephone {
+  justify-content: right;
+  align-items: center;
+}
+
+/*INFORMATION*/
+
+.info {
+  background-color: #f6f8f8;
+}
+
+.icons-inf{
+  font-size: 35px;
+  color: #5280d6;
+}
+
+.text-inf {
+  transform: translate(0px, 120%);
+  opacity: 0;  
+  transition: all 0.8s ease 0s;
+}
+
+.text-inf._active{
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+/*КАТАЛОГ*/
+
+.catalog {
+  background-color: #f6f8f8;
+}
+
+.catalog-section {
+  min-width: auto; 
+}
+
+.catalog-img {
+  border-radius: 3%;
+  width: 405px;
+  height: 250px;
+}
+
+.text-catalog-h {
+  margin-top: 7px;
+  color: #3c7cbc;
+  overflow: hidden;
+}
+
+.small-text-catalog {
+  font-size: 17px;
+  color: black;
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+}
+
+.catalog-about-tur {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 19px;
+  color: #3b3634;
+  margin: 1px;
+}
+
+.diff-lvl {
+  color: green;
+}
+
+.catalog-dop-inf {
+  font-size: 12px;
+}
+
+#tooltip {
+z-index: 9999;
+position: absolute;
+display: none;
+top:0px;
+left:0px;
+background-color: #000;
+padding: 5px 10px 5px 10px;
+color: white;
+opacity: 0.6;
+border-radius: 5px; 
+}
+
+/*Carusel*/
+
+.carusel_1 {
+  background-color: #f6f8f8;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carusel-text {
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+/*Contacts*/
+.header-cont {
+  background: url(../img/cont-bg.jpg);
+  filter: url(../img/cont-bg.jpg), progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr='#1980bb',GradientType=1 );
+  padding: 400px 0;
+}
+
+.icon-cont {
+  font-size: 30px;
+}
+
+/*About */
+.header-about {
+/*   background: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614636766_33-p-fon-gori-dlya-fotoshopa-45.jpg)  no-repeat;
+  filter: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614636766_33-p-fon-gori-dlya-fotoshopa-45.jpg), progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr='#1980bb',GradientType=1 );
+  padding: 500px 0; */
+  padding: 40px;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.about-section {
+  background: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614636766_33-p-fon-gori-dlya-fotoshopa-45.jpg)  no-repeat;
+  filter: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614636766_33-p-fon-gori-dlya-fotoshopa-45.jpg), progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr='#1980bb',GradientType=1 );
+  min-width: auto;
+  min-height: 835px;
+}
